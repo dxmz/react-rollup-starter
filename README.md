@@ -25,3 +25,6 @@ Finally, `umd`, `es`, `cjs` file and `umd` xx.min.js file are generated in `lib`
 
 ## npm run publish-demo  
 Build your project and publish your demo in github.io  
+
+## npm publish  
+Publish your npm package to `https://www.npmjs.com/` and your first npm package is done.
