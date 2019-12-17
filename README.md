@@ -28,3 +28,48 @@ Build your project and publish your demo in github.io
 
 ## npm publish  
 Publish your npm package to `https://www.npmjs.com/` and your first npm package is done.
+
+# Directory Dtructure  
+```
+│  .babelrc
+│  .browserslistrc
+│  .gitignore
+│  .npmignore
+│  LICENSE
+│  package-lock.json
+│  package.json
+│  README.md
+│  
+├─example
+│  ├─dist
+│  │  │  index.html
+│  │  │  react-rollup-starter.cjs.js
+│  │  │  react-rollup-starter.js
+│  │  │  react-rollup-starter.js.map
+│  │  │  
+│  │  └─css
+│  │          style.css
+│  │          
+│  └─src
+│          app.js
+│          index.html
+│          
+├─lib
+│  │  react-rollup-starter.cjs.js
+│  │  react-rollup-starter.esm.js
+│  │  react-rollup-starter.js
+│  │  react-rollup-starter.js.map
+│  │  react-rollup-starter.min.js
+│  │  
+│  └─css
+│          style.css
+│          
+├─scripts
+│      rollup.config.base.js
+│      rollup.config.dev.js
+│      rollup.config.prod.js
+│      
+└─src
+        index.js
+        style.scss
+```
