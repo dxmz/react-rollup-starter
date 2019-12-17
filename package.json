@@ -1,6 +1,6 @@
 {
   "name": "react-rollup-starter",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "react rollup demo",
   "repository": "dxmz/react-rollup-starter",
   "main": "lib/react-rollup-starter.js",
@@ -18,6 +18,10 @@
   },
   "keywords": [
     "react",
+    "rollup",
+    "rollup template",
+    "react rollup",
+    "rollup boilerplate",
     "npm",
     "publish",
     "react demo"
