@@ -1,2 +1,12 @@
 # .npmignore
 .idea/
+.git
+
+example/dist
+scripts
+src
+.babelrc
+.browserslistrc
+.gitignore
+.npmignore
+package-lock.json

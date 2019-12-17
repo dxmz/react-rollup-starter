@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './style.scss';
+import './style.scss';
 
 export default class ReactDemo extends React.Component {
     constructor(props) {
@@ -8,8 +8,8 @@ export default class ReactDemo extends React.Component {
 
     render() {
         return (
-            <div className={styles.title}>
-                我的第一个NPM组件！
+            <div className={'daxiong'}>
+                我的第一个NPM组件！56
             </div>
         );
     }

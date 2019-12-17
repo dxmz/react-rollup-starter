@@ -1,4 +1,9 @@
 {
-    "presets": ["@babel/preset-env", "@babel/preset-react"],
-    "plugins": ["@babel/plugin-proposal-class-properties", "@babel/plugin-transform-runtime"]
+    "presets": [["@babel/env", { "modules": false }], "@babel/react"],
+    "plugins": ["@babel/plugin-proposal-class-properties", "@babel/plugin-transform-runtime"],
+    "env": {
+        "test": {
+            "presets": [["env"]]
+        }
+    }
 }
