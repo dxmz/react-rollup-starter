@@ -3,6 +3,7 @@
 .git
 
 example/dist
+example/images
 scripts
 src
 .babelrc

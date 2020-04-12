@@ -17,15 +17,14 @@ export default [
     // .js, .cjs.js, .esm.js
     {
         ...baseConfig,
-        input: 'src/index.js',
+        input: 'src/VirtualizedMenuTree.jsx',
         output: [
-            // umd development version with sourcemap
+            // umd development version
             {
                 file: `lib/${name}.js`,
                 format: 'umd',
                 name,
-                banner,
-                sourcemap: true
+                banner
             },
             // cjs and esm version
             {
@@ -51,12 +50,12 @@ export default [
     // .min.js
     {
         ...baseConfig,
-        input: 'src/index.js',
+        input: 'src/VirtualizedMenuTree.jsx',
         output: [
-            // umd with compress version
+            // esm with compress version
             {
-                file: `lib/${name}.min.js`,
-                format: 'umd',
+                file: `lib/${name}.esm.min.js`,
+                format: 'es',
                 name,
                 banner
             }

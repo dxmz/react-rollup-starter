@@ -1,3 +1,49 @@
-.daxiong {
-  color: blue;
-  font-size: 16px; }
+.active-vir-node {
+  color: white;
+  background-color: #e6f7ff; }
+
+.active-not-leaf-node-wrapper {
+  cursor: pointer;
+  color: #1890ff;
+  background-color: #e6f7ff; }
+
+.active-node-wrapper {
+  cursor: pointer;
+  color: #1890ff;
+  background-color: #e6f7ff; }
+
+.active-node-wrapper:after {
+  transform: scaleY(1) !important;
+  opacity: 1 !important;
+  -webkit-transition: opacity 0.15s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1) !important;
+  transition: transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1), opacity 0.15s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1) !important; }
+
+.node-wrapper {
+  cursor: pointer; }
+
+.node-wrapper:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-right: 3px solid #1890ff;
+  -webkit-transform: scaleY(0.0001);
+  -ms-transform: scaleY(0.0001);
+  transform: scaleY(0.0001);
+  opacity: 0;
+  -webkit-transition: opacity 0.15s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: transform 0.15s cubic-bezier(0.215, 0.61, 0.355, 1), opacity 0.15s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
+  content: ''; }
+
+.node-name {
+  width: 90%;
+  text-align: left;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap; }
+
+.node-name:hover {
+  color: #1890ff; }
+
+.node-toggle-icon {
+  font-size: 20px; }
