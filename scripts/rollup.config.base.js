@@ -21,7 +21,8 @@ export default {
                 // left-hand side can be an absolute path, a path
                 // relative to the current directory, or the name
                 // of a module in node_modules
-                'react-dom': [ 'render' ]
+                'react-dom': [ 'render' ],
+                'react': ['Component', 'createRef', 'PureComponent', 'createElement']
             }
         }),
         babel({
